@@ -94,6 +94,7 @@ break;
 
 }  */  
 
+/* Function */
 
 /* function area(height, width){
     return area;
@@ -143,10 +144,10 @@ greetWorld(); */
 // console.log(totalCost);
 
 
-function rectangleArea(width, height){
-    let area = width * height;
-    return area;
-}
+// function rectangleArea(width, height){
+//     let area = width * height;
+//     return area;
+// }
 
 // console.log(rectangleArea(5,7));
 
@@ -157,6 +158,81 @@ function rectangleArea(width, height){
 
 // console.log(rectangleArea(5,7));
 
-rectangleArea = (width, height) => width * height;
+// rectangleArea = (width, height) => width * height;
 
-console.log(rectangleArea(5,7));
+// console.log(rectangleArea(5,7));
+
+
+/* Scope */
+
+/* function first(){
+    var x = 1;
+    console.log(x);
+    function childOfFirst(){
+        console.log(x);
+    }
+    childOfFirst();
+}
+first(); */
+
+
+// const first=() =>{
+//     let y = 1;
+//     return y;
+// }
+
+// console.log(first());
+
+
+
+
+/* var x = 10;
+{
+    var x = 1;
+    console.log(x);
+}
+
+console.log(x);
+ */
+
+
+/* const sayHi = (name) => {
+    let msg = 'Hi';
+    return msg + name;
+}
+
+const sayBye = (name) => {
+    let msg = 'Bye';
+    return msg + name;
+}
+
+console.log(sayHi(' Arif'));
+console.log(sayBye(' Nusrat')); */
+
+// const longSkyColor = () => {
+//     let color = 'blue';
+//     // console.log(color);
+// }
+
+// console.log(color);
+
+/* const logSkyColor = () => {
+    let color = 'blue'; 
+    console.log(color); // Prints "blue"
+};
+
+logSkyColor(); // Prints "blue" */
+//   console.log(color); // throws a ReferenceError
+
+
+const satellite = 'The Moon';
+const galaxy = 'The Milky Way';
+let stars = 'North Star';
+
+const callMyNightSky = () => {
+stars = 'Sirius';
+	return 'Night Sky: ' + satellite + ', ' + stars + ', ' + galaxy;
+};
+
+console.log(callMyNightSky());
+console.log(stars);
