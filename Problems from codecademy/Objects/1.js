@@ -93,7 +93,7 @@ spaceship = {
 
 
 /* Looping through objects */
-let spaceship = {
+/* let spaceship = {
     crew: {
         captain: {
             name: 'Lily',
@@ -121,4 +121,66 @@ let spaceship = {
 // for...in
 for (let crewMember in spaceship.crew) {
     console.log(`${crewMember}: ${spaceship.crew[crewMember].name}`);
+} */
+
+
+
+/* let healthy = {
+    _name: 'Halley',
+    _behavior: 0,
+
+    get Petname(){
+        return this._name;
+    },
+    get behavior(){
+        return this.behavior;
+    },
+    incrementBehavior(){
+        this.behavior++;
+    }
 }
+
+console.log(healthy.Petname); */
+
+
+/* class Dog {
+    constructor(name) {
+        this._name = name;
+        this._behavior = 0;
+    }
+
+    get name() {
+        return this._name;
+    }
+    get behavior() {
+        return this._behavior;
+    }
+
+    incrementBehavior() {
+        this._behavior++;
+    }
+}
+
+const halley = new Dog('Halley');
+const niloy = new Dog('Niloy');
+console.log(halley.name); // Print name value to console
+console.log(halley.behavior); // Print behavior value to console
+halley.incrementBehavior(); // Add one to behavior
+console.log(halley.name); // Print name value to console
+console.log(halley.behavior); // Print behavior value to console
+
+console.log(niloy._name);
+console.log(niloy._behavior); */
+
+
+
+class Dog {
+    constructor(name) {
+        this.name = name;
+        this.behavior = 0;
+    }
+}
+
+const halley = new Dog('Halley'); // Create new Dog instance
+console.log(halley.name)
+console.log(halley.behavior)
