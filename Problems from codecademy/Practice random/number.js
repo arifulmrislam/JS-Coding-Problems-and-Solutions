@@ -56,3 +56,20 @@ console.log(DashInsert(56730));  // Output: 2-2-2-2 */
 // keep this function call here 
 console.log(OneDecremented((9876541110))); */
 
+
+function Superincreasing(arr) {
+    arr = arr.toString();
+    let result = arr[0];
+
+    for (let i = 1; i < arr.length; i++) {
+        if (arr[i + 1]*2 > arr[i]) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+}
+
+// keep this function call here 
+console.log(Superincreasing(([1,2,5,10])));
+
