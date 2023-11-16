@@ -53,3 +53,14 @@ console.log(person.age); */
 // dynamicVariable = 'Hello, World!';
 
 // console.log('Updated Type', typeof dynamicVariable);
+
+
+/* const pi = 3.1416;
+const radius = 5;
+
+let area = pi * radius ** 2;
+let formattedArea = area.toFixed(2);
+console.log('Area:',formattedArea); */
+
+
+
