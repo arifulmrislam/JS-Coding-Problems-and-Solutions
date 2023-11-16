@@ -1,0 +1,58 @@
+// function SimpleEvens(num){
+//     var str = num.toString();
+//     for(var i=0;i<str.length;i++){
+//         if(Number(str[i]%2 !=0)) return false;
+//     }
+//     return true;
+// }
+
+// console.log(SimpleEvens(readline()));
+
+
+// function DashInsert(str){
+//     if(str % 2 !== 0){
+//         return str;
+//     }
+// }
+// console.log(DashInsert(2222));
+
+/* function DashInsert(str){
+    let str = str.toString();
+    let result = str[0];
+
+    for(let i = 1; i < str.length; i++){
+        if(str[i] % 2 !== 0){
+            result += '_' + str[i];
+        } else {
+            result += str[i];
+        }
+    }
+    return result;
+}
+
+console.log(DashInsert(56730));  // Output: 2-2-2-2 */
+
+
+
+
+
+/* function OneDecremented(str) {
+    str = str.toString();
+    let result = str[0];
+    let count = 0;
+    for (let i = 1; i < str.length; i++) {
+        if (str[i] > str[i + 1]) {
+            console.log(str[i]);
+            count++;
+        } else {
+            result += str[i];
+        }
+    }
+    // code goes here  
+    return count;
+
+}
+
+// keep this function call here 
+console.log(OneDecremented((9876541110))); */
+

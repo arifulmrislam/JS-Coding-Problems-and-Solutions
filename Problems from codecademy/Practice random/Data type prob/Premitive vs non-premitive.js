@@ -10,3 +10,5 @@ console.log('myCity=>', myCity);
 var numbers = [10, 20, 30];
 numbers[0] = 5;
 console.log('Numbers=>',numbers);
+
+
