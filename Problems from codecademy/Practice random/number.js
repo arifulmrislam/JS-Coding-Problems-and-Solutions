@@ -57,7 +57,7 @@ console.log(DashInsert(56730));  // Output: 2-2-2-2 */
 console.log(OneDecremented((9876541110))); */
 
 
-function Superincreasing(arr) {
+/* function Superincreasing(arr) {
     arr = arr.toString();
     let result = arr[0];
 
@@ -71,5 +71,30 @@ function Superincreasing(arr) {
 }
 
 // keep this function call here 
-console.log(Superincreasing(([1,2,5,10])));
+console.log(Superincreasing(([1,2,5,10]))); */
+
+function ChangingSequence(arr) {
+
+
+    for (var i = 0; i < arr.length; i++) {
+
+        if (arr[0] < arr[1]) {  // increasing pattern
+            if (arr[i] > arr[i + 1]) {
+                return i;
+            }
+        }
+
+        if (arr[0] > arr[1]) {  // decreasing pattern
+            if (arr[i] < arr[i + 1]) {
+                return i;
+            }
+        }
+    }
+
+    return -1;
+
+}
+
+// keep this function call here 
+console.log(ChangingSequence([5, 4, 3, 2, 10, 11]));
 
