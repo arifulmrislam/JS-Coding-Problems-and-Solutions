@@ -131,6 +131,19 @@ console.log(VowelCount('Communication')); */
 
 
 
-const SwapCase = (str1, str2) => {
-    
+/* const SwapCase = (str) => {
+    let count = '';
+
+    for(let i = 0;i<str.length;i++){
+        if(str[i] === str[i].toLowerCase()){
+            count += str[i].toUpperCase();
+        }else{
+            count += str[i].toLowerCase();
+        }
+    }
+    return count;
 }
+
+console.log(SwapCase('HellO WoRld'));  */ 
+
+
