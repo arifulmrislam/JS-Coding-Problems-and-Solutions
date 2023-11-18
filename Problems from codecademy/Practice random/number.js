@@ -73,7 +73,7 @@ console.log(OneDecremented((9876541110))); */
 // keep this function call here 
 console.log(Superincreasing(([1,2,5,10]))); */
 
-function ChangingSequence(arr) {
+/* function ChangingSequence(arr) {
 
 
     for (var i = 0; i < arr.length; i++) {
@@ -96,5 +96,41 @@ function ChangingSequence(arr) {
 }
 
 // keep this function call here 
-console.log(ChangingSequence([5, 4, 3, 2, 10, 11]));
+console.log(ChangingSequence([5, 4, 3, 2, 10, 11])); */
 
+
+
+
+/* const WordCount = (str) => {
+    let word = str.split(' ');
+    let count = 0;
+
+    for (let i = 0; i < str.length; i++) {
+        count++;
+    }
+    return count;
+}
+// keep this function call here 
+console.log(WordCount("Arif")); */
+
+/* const VowelCount = (str) => {
+    let count = 0;
+    let str1 = ['a','e','i','o','u'];
+
+    for(let i=0;i<str.length;i++){
+        if(str1.includes(str[i].toLowerCase())){
+            count++;
+        }
+    }
+    return count;
+}
+
+console.log(VowelCount('Communication')); */
+
+
+
+
+
+const SwapCase = (str1, str2) => {
+    
+}
