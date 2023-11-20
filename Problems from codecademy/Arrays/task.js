@@ -1,8 +1,7 @@
-/* let marks_class_12 = [91, 82, 63, 84, false, 'Not Present'];
-
+let marks_class_12 = [91, 82, 63, 84, false, 'Not Present'];
 for(let i=0; i<marks_class_12.length; i++){
-    console.log("Array",i, marks_class_12[i]);
-} */
+    console.log("Array", marks_class_12[i]);
+}
 
 
 // let num = [1,2,3,4,5];
@@ -85,7 +84,7 @@ while(counterTwo <4){
 
 
 
-const firstMessage = 'I will print';
+/* const firstMessage = 'I will print';
 const secondMessage = 'I will not print';
 
 do {
@@ -94,4 +93,4 @@ do {
 
 while(true === false){
     console.log(secondMessage);
-}
+} */

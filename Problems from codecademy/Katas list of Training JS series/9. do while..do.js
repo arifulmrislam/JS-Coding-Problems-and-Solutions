@@ -13,7 +13,7 @@
 
 // sum_100();
 
-const padIt = (str,n)=>{
+/* const padIt = (str,n)=>{
     // n=10;
     let i=1;
     do{
@@ -29,4 +29,23 @@ const padIt = (str,n)=>{
     }
 }
 
-padIt()
+padIt() */
+
+
+
+/* while loop */
+const sum_10=()=>{
+    let num=1;
+
+    while(num<=10){
+        console.log(num);
+        num++;
+        
+    }
+    return num;
+}
+console.log(sum_10());
+
+
+
+
