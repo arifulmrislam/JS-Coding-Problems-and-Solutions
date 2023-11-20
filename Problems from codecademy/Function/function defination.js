@@ -17,3 +17,9 @@
 //     console.log(`Remember to buy ${item2}`);
 //     console.log(`Remember to buy ${item3}`);
 // }
+
+const myFunction = () =>{
+    a = 1;
+}
+// myFunction();
+console.log(a);

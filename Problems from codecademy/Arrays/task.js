@@ -1,8 +1,8 @@
-let marks_class_12 = [91, 82, 63, 84, false, 'Not Present'];
+/* let marks_class_12 = [91, 82, 63, 84, false, 'Not Present'];
 for(let i=0; i<marks_class_12.length; i++){
     console.log("Array", marks_class_12[i]);
 }
-
+ */
 
 // let num = [1,2,3,4,5];
 // let num_1 = [1,2,3,4,5];
@@ -94,3 +94,61 @@ do {
 while(true === false){
     console.log(secondMessage);
 } */
+
+
+
+/* const fruit = ['Apple', 'Orange', 'Banana'];
+
+fruit[0] = 'Pineapple';
+
+console.log(fruit);
+
+for(let i=0;i<fruit.length;i++){
+    console.log(fruit[i]);
+} */
+
+
+/* Nested Array */
+
+/* const nestedArray = [
+[
+    [1, 2, 3],
+    [5, 6, 8],
+    [10, 12, 13],
+],
+[
+    ['A', 'B', 'C'],
+    ['D', 'E', 'F'],
+    ['G', 'H', 'I' ],
+],
+];
+
+console.log(nestedArray[0][1][1]);
+console.log(nestedArray[1][2][2]); */
+
+
+/* const array = [1, 2, 3, 4, 5];
+// const firstElement = array.at(0);
+
+console.log(array[0]); */
+
+
+const rainbow = [
+    'red',
+    'orange',
+    'yellow',
+    'green',
+    'blue',
+    'indigo',
+    'violet',
+];
+
+// const checkIndigo = rainbow.indexOf('indigo');
+// rainbow.push('skyblue');
+// rainbow.shift();
+// rainbow.pop();
+// const rain = rainbow.slice().reverse();
+// console.log(checkIndigo);
+// console.log(rainbow);
+console.log(rainbow.slice().reverse());
+

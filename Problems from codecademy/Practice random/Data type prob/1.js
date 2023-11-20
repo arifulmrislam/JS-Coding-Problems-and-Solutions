@@ -62,5 +62,23 @@ let area = pi * radius ** 2;
 let formattedArea = area.toFixed(2);
 console.log('Area:',formattedArea); */
 
+/* let num1 = 3**2;
+let num2 = 2;
 
+console.log(num1 % num2); */
 
+/* let i = true;
+let a =0;
+let b =0;
+let c =0;
+
+i == true ? (a++,b++,c++):((a=0),(b=0),(c=0));
+
+console.log('a=', a,'b=', b,'c=',c); */
+
+let i = true;
+let a = 0;
+let b = 0;
+// This implementation will fail
+i == true ? (a++, b++) : (a = 0, b = 0);
+console.log('a = ', a, 'b = ', b);
