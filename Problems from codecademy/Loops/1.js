@@ -84,9 +84,17 @@ console.log(myEntires); */
 // }
 
 
-for (let i = 0; i < 99; i += 1) {
+/* for (let i = 0; i < 99; i += 1) {
     if (i > 5) {
         break;
     }
     console.log(i);
+} */
+
+const card = ['diamond', 'spade', 'heart', 'club'];
+let current_card;
+
+while(current_card !== 'spade'){
+    current_card = card[Math.floor(Math.random()*4)];
+    console.log(current_card);
 }

@@ -4,18 +4,18 @@ for(let i=0; i<marks_class_12.length; i++){
 }
  */
 
-// let num = [1,2,3,4,5];
-// let num_1 = [1,2,3,4,5];
+let num = [1,2,3,4,5];
+let num_1 = [1,2,3,4,5];
 
-/* let b = num.toString();
-console.log(b, typeof b);
+// let b = num.toString();
+// console.log(b, typeof b);
 
-let c = num.join(" _ ");
-console.log(c, typeof c);
+let c = num.indexOf(4);
+console.log(c);
 
 // let r = num.pop();
-let r = num.push(56);
-console.log(num); */
+// let r = num.push(56);
+// console.log(num);
 
 // let b = num.concat(num_1);
 // console.log(b);
@@ -133,15 +133,15 @@ console.log(nestedArray[1][2][2]); */
 console.log(array[0]); */
 
 
-const rainbow = [
-    'red',
-    'orange',
-    'yellow',
-    'green',
-    'blue',
-    'indigo',
-    'violet',
-];
+// const rainbow = [
+//     'red',
+//     'orange',
+//     'yellow',
+//     'green',
+//     'blue',
+//     'indigo',
+//     'violet',
+// ];
 
 // const checkIndigo = rainbow.indexOf('indigo');
 // rainbow.push('skyblue');
@@ -150,5 +150,5 @@ const rainbow = [
 // const rain = rainbow.slice().reverse();
 // console.log(checkIndigo);
 // console.log(rainbow);
-console.log(rainbow.slice().reverse());
+// console.log(rainbow.slice().reverse());
 
