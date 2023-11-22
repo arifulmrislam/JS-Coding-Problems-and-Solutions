@@ -91,10 +91,14 @@ console.log(myEntires); */
     console.log(i);
 } */
 
-const card = ['diamond', 'spade', 'heart', 'club'];
-let current_card;
+// const card = ['diamond', 'spade', 'heart', 'club'];
+// let current_card;
 
-while(current_card !== 'spade'){
-    current_card = card[Math.floor(Math.random()*4)];
-    console.log(current_card);
-}
+// while(current_card !== 'spade'){
+//     current_card = card[Math.floor(Math.random()*4)];
+//     console.log(current_card);
+// }
+
+
+let T = 60;
+
