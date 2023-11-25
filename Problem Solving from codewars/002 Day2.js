@@ -4,11 +4,11 @@ No floats or non-positive integers will be passed.
 For example, when an array is passed like [19, 5, 42, 2, 77], the output should be 7. 
 */
 
-const num = [19, 5, 42, 2, 77];
+const numbers = [19, 5, 42, 2, 77];
 
 const arr = function(numbers){
-    var arrs = numbers.sort((a,b)=>a-b).slice(0,2);
-    console.log(arrs[0] + arrs[1]);
+    var arrs = numbers.sort((a,b)=>a-b).slice(0,2); //using sort function to make smallar to higher
+    console.log(arrs[0] + arrs[1]); // add first two indexOf(arrs).
     // console.log(arrs.join());
 }
-arr(num);
+arr(numbers);
