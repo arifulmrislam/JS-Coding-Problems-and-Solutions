@@ -15,13 +15,26 @@
 // }
 
 
-function aFunc(a){
-    console.log('Before changing the property: ' + a.one);
-    a.one = 'two';
-    console.log('After changing the property', a.one)
+// function aFunc(a){
+//     console.log('Before changing the property: ' + a.one);
+//     a.one = 'two';
+//     console.log('After changing the property', a.one)
+// }
+// var a = {
+//     one : "one"
+// }
+// aFunc(a);
+// console.log(a.one);
+
+
+function str() {
+    // var num = "Hello";
+    var count = "";
+    for (var i = num.length-1; i >= 0; i--) {
+        count += num[i];
+    }
+    return count;
 }
-var a = {
-    one : "one"
-}
-aFunc(a);
-console.log(a.one);
+
+var num = "Hello";
+console.log(str(num));
