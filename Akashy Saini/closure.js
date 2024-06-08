@@ -25,15 +25,32 @@
 
 
 
+// function x(){
+//   var a = 26;
+//   function y(){
+//     console.log(a);
+//   }
+//   a = 100;
+//   return y;
+// }
+
+// var z = x();
+// console.log(z);
+// z();
+
+
+
+
 function x(){
-  var a = 26;
-  function y(){
-    console.log(a);
+  for(var i=0;i<=5;i++){
+    function close(x){
+      setTimeout(function () {
+        console.log(x);
+      },x * 3000);
+    }
+    close(i)
   }
-  a = 100;
-  return y;
+  console.log("Hello JS");
 }
 
-var z = x();
-console.log(z);
-z();
+x();
