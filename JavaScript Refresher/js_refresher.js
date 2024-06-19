@@ -88,4 +88,37 @@ do{
     ++i;
     console.log(i);
 }while(i < 10);
-*/
+
+var foo = 'Hello';
+var bar = foo.concat(' World!');
+console.log(bar);
+
+
+var foo = 'Hello';
+console.log(foo.length);
+
+
+var foo = 'Hello World! How do you do?';
+console.log(foo.lastIndexOf(' '));
+
+
+var foo = 'foo bar foo bar foo';
+var newString = foo.replace('bar', 'New!');
+console.log(newString);
+
+
+var foo = '     This line has unnecessary spaces.';
+console.log(foo.trim());
+
+
+var foo = 'Bangladesh';
+console.log(foo.charAt(3));
+
+let country = 'Bangladesh';
+console.log(country.replace(3));
+*/ 
+
+let country = `We 
+love 
+Bangladesh`;
+console.log(country);
