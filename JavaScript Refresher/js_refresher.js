@@ -116,9 +116,122 @@ console.log(foo.charAt(3));
 
 let country = 'Bangladesh';
 console.log(country.replace(3));
-*/ 
+
 
 let country = `We 
 love 
 Bangladesh`;
 console.log(country);
+
+
+const myObj = {
+    f_name: 'Joni',
+    l_name: 'toni',
+    address: 'Dallas, TX',
+    phone: {
+        color: 'red',
+        model: 'iphone-15',
+    }
+}
+
+for(let key in myObj){
+    console.log(myObj[key]);
+}
+
+console.log(Object.keys(myObj));
+
+
+var addStaff = {
+    name: 'Adder',
+    sum(num1,num2){
+        return num1 + num2;
+    }
+}
+
+console.log(addStaff.name);
+console.log(addStaff.sum(5,6));
+ 
+
+function createAnimal(name, owner){
+    return{
+    name,
+    owner,
+    getInfo(){
+        return `${this.name} is owned by ${this.owner}`
+    },
+    address: {
+        street: '123 Main street',
+        city: 'Pittsburgh'
+    }
+    };
+}
+
+// var sport = createAnimal('Sport', 'Dough');
+
+// console.log(`${sport.getInfo()}`);
+
+// console.log(`${sport.name} is at ${sport.address.street}`);
+
+// console.log(`${Object.getOwnPropertyNames(sport).join(' ')}`);
+
+var spot = createAnimal('Spot', 'Doug');
+
+let {name, owner} = spot;
+console.log(`Name: ${name}`);
+console.log(`Owner: ${owner}`);
+
+let {address} = spot;
+console.log(`Address: ${address.street}`);
+
+
+let favNumbs = [2.718, .5772, 4.6692];
+let [chaos,,] = favNumbs;
+console.log(`Chaos: ${chaos}`);
+
+let [, ...last2] = favNumbs;
+console.log(`2nd Num: ${last2[0]}`);
+
+let val1 = 1, val2=2;
+[val1, val2] = [val2, val1];
+console.log(`Val2: ${val2}`);
+
+
+let arr = ['Banana', 'Mango', 'Pineapple', 'Orange'];
+
+const myFunction = function(value){
+    console.log(value);
+}
+
+arr.forEach(myFunction);
+arr.push('Malta');
+console.log(arr);
+
+
+let arr1 = Array.of(1,2,3);
+arr1.splice(1,1)
+console.log(arr1);
+
+let arr2 = Array.from(arr1, (value) => value*2);
+
+console.log(arr2);
+
+console.log(arr1.concat(arr2));
+
+
+var abc = ['a','b','c'];
+var a = abc.join('');
+console.log(a);
+
+var abc2 = a.split(",");
+console.log(abc2);
+*/
+
+var abc = ["a", "b", "c"];
+
+const myFunction= abc.forEach((value) => {
+    console.log(value);
+})
+
+for(let key of abc){
+    console.log(key);
+}
