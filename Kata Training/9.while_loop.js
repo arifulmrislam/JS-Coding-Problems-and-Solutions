@@ -4,12 +4,17 @@
 // find the times of pad the string
 
 function padIt(str, n){
-    var str=0, n=0;
+    let i=1;
     do{
-        str = '*';
-        n++;
-    }while(n<=5)
-        return '*'+ n;
+        if(i % 2 === 1){
+            str = "*" + str;
+        }else{
+            str = str + '*';
+        }
+        i++;
+        n--;
+    }while(n>0)
+        return str;
 }
 
-console.log(padIt());
+console.log(padIt(5,5));
