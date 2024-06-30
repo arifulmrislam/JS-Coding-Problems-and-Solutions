@@ -53,9 +53,7 @@ function printObjectProperty(myObject) {
     console.log(myObject.type);
     console.log(myObject.model);
     console.log(myObject.color);
-} */
-
-
+} 
 
 
 
@@ -66,3 +64,23 @@ function printObjectProperty(myObject) {
     }
     console.log(car);
 }
+*/
+
+
+//a string is Palindrome or not
+
+function reverse(text){
+    let reverseText = '';
+    for(let i=text.length-1;i>=0;i--){
+        reverseText += text[i];
+    }
+    return reverseText;
+}
+
+function isPalindrome(text){
+    const reversString = reverse(text);
+
+    return reversString === text;
+}
+
+console.log(isPalindrome('racecar'));
