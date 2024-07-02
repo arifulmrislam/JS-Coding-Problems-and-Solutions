@@ -9,6 +9,8 @@ var createHelloWorld = function() {
 */
 
 //Reverse and print a given string
+// @input "codepravah"
+// @output "havarpedoc"
 
 const str = 'codepravah';
 function reverse(str){
