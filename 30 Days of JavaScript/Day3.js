@@ -44,11 +44,17 @@ function getLargestNumber(arr){
     //     }
     // }
     // console.log(largest);
-    arr.forEach((num)=>{
-        if(num > largest){
-            largest = num;
+    // arr.forEach((num)=>{
+    //     if(num > largest){
+    //         largest = num;
+    //     }
+    // });
+    // console.log(largest);
+    for(let i=0;i<=array.length;i++){
+        if(arr[i]>largest){
+            largest = arr[i];
         }
-    });
+    }
     console.log(largest);
 }
 getLargestNumber(array);

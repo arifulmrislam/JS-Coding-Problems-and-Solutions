@@ -14,7 +14,12 @@ var createHelloWorld = function() {
 
 const str = 'codepravah';
 function reverse(str){
-    var str2 = str.split('').reverse().join('');
+    var str2 = '';
+    // var str2 = str.split('').reverse().join('');
+    for(let i=str.length-1;i>=0;i--){
+        str2 += str[i];
+    }
     return str2;
 }
 console.log(reverse(str));
+// reverse(str);

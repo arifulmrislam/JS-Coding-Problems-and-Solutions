@@ -69,18 +69,39 @@ function printObjectProperty(myObject) {
 
 //a string is Palindrome or not
 
-function reverse(text){
-    let reverseText = '';
-    for(let i=text.length-1;i>=0;i--){
-        reverseText += text[i];
+// function reverse(text){
+//     let reverseText = '';
+//     for(let i=text.length-1;i>=0;i--){
+//         reverseText += text[i];
+//     }
+//     return reverseText;
+// }
+
+// function isPalindrome(text){
+//     const reversString = reverse(text);
+
+//     return reversString === text;
+// }
+
+// console.log(isPalindrome('racecar'));
+
+
+var text = 'racecar';
+
+function reverseText(text){
+    var str1 = '';
+    for(let i = text.length-1;i>=0;i--){
+        str1 += text[i];
     }
-    return reverseText;
+    return str1;
 }
 
 function isPalindrome(text){
-    const reversString = reverse(text);
-
-    return reversString === text;
+    if(reverseText(text) === text){
+        console.log('Text is Palindrome');
+    }else{
+        console.log('Text is not');
+    }
 }
 
-console.log(isPalindrome('racecar'));
+isPalindrome(text);
