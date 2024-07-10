@@ -9,7 +9,7 @@ function generateRGBColor(){
     const green = Math.floor(Math.random() * 256);
     const blue = Math.floor(Math.random() * 256);
 
-    return color = `RGB ${red},${green},${blue}`;
+    return color = `RGB (${red}, ${green}, ${blue})`;
 
 }
 

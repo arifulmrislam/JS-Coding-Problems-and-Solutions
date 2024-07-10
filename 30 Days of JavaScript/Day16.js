@@ -7,7 +7,7 @@
 
 function sortSentence(sentence){
     var strSplit = sentence.split(' ');
-
+    
     var shortestWord = strSplit.sort((a,b) =>{
         return a.length - b.length;
     })
