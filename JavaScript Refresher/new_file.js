@@ -123,17 +123,55 @@
 // console.log(originalArray);
 // console.log(newArr);
 
-var arr = [1, 2, 10, 4, 50, 6,250];
-var arr2 = ["a", "c", "b"];
-function threeInOne(arr){
-    var result = [];
-    arr.filter((elem)=>{
-        if(elem >= 40){
-            result.push(elem);
-        }
-    })
-    console.log(arr.indexOf(4));
-    return result.concat(['Hello Sum']);
-}
+// var arr = [1, 2, 10, 4, 50, 6,250];
+// var arr2 = ["a", "c", "b"];
+// function threeInOne(arr){
+//     var result = [];
+//     arr.filter((elem)=>{
+//         if(elem >= 40){
+//             result.push(elem);
+//         }
+//     })
+//     console.log(arr.indexOf(4));
+//     return result.concat(['Hello Sum']);
+// }
 
-console.log(threeInOne(arr));
+// console.log(threeInOne(arr));
+
+
+
+
+
+// function multiplyByNineFifth(number){
+//     return number * (9/5);
+// }
+
+// function getFahrenheit(celsius){
+//     return Number(multiplyByNineFifth(celsius + 32).toFixed(2));
+// }
+
+// console.log(getFahrenheit(15));
+
+
+
+
+// const longSkyColor =()=>{
+//     const dust = 'true';
+//     let color = 'red';
+//     if(dust){
+//         let color = 'blue';
+//         console.log(Color);
+//     }
+//     console.log(color);
+// }
+// console.log(longSkyColor());
+
+// const arr = [200,300,100];
+
+// const res = arr.sort((a,b)=>{
+//     return a - b;
+// });
+
+
+
+// console.log(res);

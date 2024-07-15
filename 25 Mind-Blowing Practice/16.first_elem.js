@@ -3,7 +3,7 @@
 function retrieve(arr, n=2){
     if(n < arr.length){
         for(let i=0;i<n;i++){
-            console.log(arr[arr.length - 1 - i]);
+            console.log(arr[i]);
         }
     }else{
         console.log(n + 'to elements')

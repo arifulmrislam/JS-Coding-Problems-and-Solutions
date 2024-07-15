@@ -3,4 +3,4 @@
 function isArray(ele){
     return Array.isArray(ele);
 }
-console.log(isArray({}));
+console.log(isArray('I love you all.'));

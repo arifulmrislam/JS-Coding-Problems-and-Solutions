@@ -1,0 +1,106 @@
+.product-card {
+    height: 450px;
+    width: 320px;
+    background-color: #232323;
+    border-radius: 20px;
+    position: relative;
+    overflow: hidden;
+}
+.product-card::before{
+    content: '';
+    height: 100%;
+    width: 100%;
+    background-color: #9bdc28;
+    position: absolute;
+    top: 0;
+    left: 0;
+    clip-path: circle(150px at 80% 20%);
+}
+.product-card:hover:before{
+    clip-path: circle(300px at 80% -10%);
+}
+.card-img {
+    max-width: 250px;
+    position: absolute;
+    top: 0;
+    left: 10%;
+    transform: translateY(100%);
+    transition: .5s;
+}
+.card-img img{
+    max-width: 100%;
+    border-radius: 10%;
+    transform: rotate(-15deg);
+}
+.product-card:hover .card-img{
+    transform: translateY(20%);
+}
+.card-body {
+    position: absolute;
+    height: 200px;
+    width: 100%;
+    text-align: center;
+    bottom: 0;
+    color: white;
+}
+.product-card:hover .card-body{
+    height: 200px;
+}
+.sizes {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition-delay: 0.5s;
+}
+.sizes span{
+    height: 25px;
+    width: 25px;
+    background-color: cornsilk;
+    color: black;
+    margin-left: 5px;
+    border-radius: 3px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colors {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.colors span{
+    height: 20px;
+    width: 20px;
+    background-color: rgb(30, 30, 211);
+    margin-left: 10px;
+    color: black;
+    border-radius: 50%;
+}
+.colors span:nth-child(2){
+    background-color: red
+}
+.colors span:nth-child(3){
+    background-color: rgb(87, 5, 250)
+}
+.colors span:nth-child(4){
+    background-color: rgb(226, 221, 221)
+}
+
+.card-body h3{
+    margin: 15px 0;
+}
+.buy-now-btn{
+    border: 0;
+    outline: 0;
+    background-color: rgb(245, 243, 243);
+    cursor: pointer;
+    padding: 7px 15px;
+}
+.product-details{
+    opacity: 0;
+    transition: .5s;
+}
+
+.product-card:hover .product-details{
+    opacity: 1;
+}
